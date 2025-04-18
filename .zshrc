@@ -1,5 +1,5 @@
 # Start zsh speed profiling
-zmodload zsh/zprof
+# zmodload zsh/zprof
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -67,4 +67,4 @@ export PATH="/opt/homebrew/opt/postgresql@17/bin:/Users/theorib/.pyenv/shims:/Us
 eval "$(starship init zsh)"
 
 # END zsh speed profiling
-zprof
+# zprof
