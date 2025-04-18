@@ -51,9 +51,8 @@ alias pn='pnpm'
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
-# run sqlite from homebrew
-export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
-export JAVA_HOME=$(/usr/libexec/java_home)
+
+
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 
 # ruby
@@ -65,18 +64,57 @@ export PATH="$(gem environment gemdir)/bin:$PATH"
 # BREW CONFIG: Allows access to Brew command and Brew packages
 eval $(/opt/homebrew/bin/brew shellenv)
 
+# START PIP CONFIGURATION
+# https://switowski.com/blog/disable-pip-outside-of-virtual-environments/#make-sure-that-pip-only-runs-in-a-virtual-environment
+export PIP_REQUIRE_VIRTUALENV=true
+# END PIP CONFIGURATION
+
 # START PYENV CONFIGURATION
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 # END PYENV CONFIGURATION
 
-# START PSQL CONFIGURATION
-export PATH="/opt/homebrew/opt/postgresql@17/bin:/Users/theorib/.pyenv/shims:/Users/theorib/.npm/_npx/242bb6866408f4ac/node_modules/.bin:/Users/theorib/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/theorib/.nvm/versions/node/v23.9.0/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/opt/homebrew/lib/ruby/gems/3.4.0/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/opt/openjdk@11/bin:/opt/homebrew/opt/sqlite/bin:/Users/theorib/.nvm/versions/node/v23.9.0/bin:/opt/homebrew/lib/ruby/gems/3.4.0/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/opt/openjdk@11/bin:/opt/homebrew/opt/sqlite/bin:/Users/theorib/.local/bin:/Users/theorib/.volta/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin"
-
-# END PSQL CONFIGURATION
-
-
+# START PATH CONFIGURATION
+# PostgreSQL
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+# Python (pyenv)
+export PATH="$HOME/.pyenv/shims:$PATH"
+# Node.js related paths
+export PATH="$HOME/.npm/_npx/242bb6866408f4ac/node_modules/.bin:$PATH"
+export PATH="$HOME/node_modules/.bin:$PATH"
+# export PATH="/Users/node_modules/.bin:$PATH"
+# export PATH="/node_modules/.bin:$PATH"
+export PATH="$HOME/.nvm/versions/node/v23.9.0/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:$PATH"
+export PATH="$HOME/.nvm/versions/node/v23.9.0/bin:$PATH"
+# Ruby
+export PATH="/opt/homebrew/lib/ruby/gems/3.4.0/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+# Java
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
+export JAVA_HOME=$(/usr/libexec/java_home)
+# SQLite
+export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
+# Local binaries
+export PATH="$HOME/.local/bin:$PATH"
+# Python framework
+export PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:$PATH"
+# Homebrew
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
+# System paths
+export PATH="/usr/local/bin:$PATH"
+export PATH="/System/Cryptexes/App/usr/bin:$PATH"
+export PATH="/usr/bin:$PATH"
+export PATH="/bin:$PATH"
+export PATH="/usr/sbin:$PATH"
+export PATH="/sbin:$PATH"
+# Apple security paths
+export PATH="/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:$PATH"
+export PATH="/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:$PATH"
+export PATH="/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:$PATH"
+export PATH="/Library/Apple/usr/bin:$PATH"
+# END PATH CONFIGURATION
 
 
 # END zsh speed profiling
