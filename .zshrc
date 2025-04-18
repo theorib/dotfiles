@@ -8,10 +8,23 @@ export NVM_LAZY=1
 
 # Oh My ZSH Plugins
 plugins=(
+  # autopep8
+  # aws
+  pip
+  # https://github.com/nvbn/thefuck
+  thefuck
+  # Activate Starship
+  starship
+
+  # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gitignore
+  gitignore
+
   # https://aronschueler.de/blog/2021/12/10/fix-slow-zsh-startup-nvm/
   nvm
 
-  git
+  # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+  # git
+
   # https://github.com/zsh-users/zsh-syntax-highlighting/tree/master
   zsh-syntax-highlighting
 
@@ -63,8 +76,8 @@ export PATH="/opt/homebrew/opt/postgresql@17/bin:/Users/theorib/.pyenv/shims:/Us
 
 # END PSQL CONFIGURATION
 
-# Activate Starship
-eval "$(starship init zsh)"
+
+
 
 # END zsh speed profiling
 # zprof
