@@ -20,6 +20,7 @@ $kotlin\
 $haskell\
 $python\
 [](fg:color_blue bg:color_bg3)\
+$shell\
 $docker_context\
 $conda\
 [](fg:color_bg3 bg:color_bg1)\
@@ -149,6 +150,16 @@ format = '[[ $symbol( $context) ](fg:#83a598 bg:color_bg3)]($style)'
 [conda]
 style = "bg:color_bg3"
 format = '[[ $symbol( $environment) ](fg:#83a598 bg:color_bg3)]($style)'
+
+[shell]
+fish_indicator = '󰈺 '
+zsh_indicator = ' '
+bash_indicator = ' '
+powershell_indicator = ' '
+unknown_indicator = 'mystery shell'
+format = '[[ $indicator ](fg:#83a598 bg:color_bg3)]($style)'
+style = "bg:color_bg3"
+disabled = false
 
 [time]
 disabled = false
