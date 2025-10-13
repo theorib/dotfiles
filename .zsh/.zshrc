@@ -1,6 +1,13 @@
 # Start zsh speed profiling
 # zmodload zsh/zprof
 
+# Check if ~/.zshrc is still a symlink to this file
+if [ ! -L "$HOME/.zshrc" ] || [ "$(readlink $HOME/.zshrc)" != "$HOME/dotfiles/.zsh/.zshrc" ]; then
+    echo "WARNING: '~/.zshrc' is not a symlink pointing to '~/dotfiles/.zsh/.zshrc!'"
+    echo "Run the following command:"
+    echo "rm ~/.zshrc && ln -s ~/dotfiles/.zsh/.zshrc ~/.zshrc"
+fi
+
 # BREW CONFIG: Allows access to Brew command and Brew packages
 eval $(/opt/homebrew/bin/brew shellenv)
 
@@ -79,6 +86,11 @@ if [ -L "$PNPM_NODE_CURRENT" ]; then
 fi
 # pnpm node end
 
+# START AWS CLI
+export AWS_PROFILE=AWS
+export AWS_DEFAULT_REGION=eu-west-2
+# END AWS CLI
+
 # START PATH CONFIGURATION
 # Volta
 # export VOLTA_HOME=$HOME/.volta
@@ -105,6 +117,8 @@ export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 # START Argyl CMS
 export PATH=$PATH:/Applications/Argyll_V3.4.1/bin
 
+# Go
+export PATH=$PATH:$HOME/go/bin
 
 # START starship
 # https://starship.rs/
@@ -154,6 +168,8 @@ alias pp='export PYTHONPATH=$(pwd) && echo "PYTHONPATH set to $(pwd)"'
 alias vv='source venv/bin/activate && echo "venv activated"'
 alias vvv='source .venv/bin/activate && echo ".venv activated"'
 
+# useful aliases for replacing the ls command with the more powerful lsd command
+# https://github.com/lsd-rs/lsd
 alias ls="lsd -F"
 alias la="lsd -AF"
 alias ll="lsd -lAF"
