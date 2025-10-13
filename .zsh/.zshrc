@@ -24,6 +24,12 @@ if type brew &>/dev/null; then
     fi
 # END zsh-completions
 
+# START mouse support
+# https://github.com/matschaffer/oh-my-zsh-custom/blob/master/mouse.zsh
+source ~/dotfiles/.zsh/plugins/zsh-mouse-support/zsh-mouse-support.plugin.zsh
+# END mouse support
+
+
 
 ### ZSH HOME
 export ZSH=$HOME/dotfiles/.zsh
@@ -54,11 +60,30 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 # END PYENV CONFIGURATION
 
+# START docker
+export PATH="$PATH:/Applications/Development Utils/Docker.app/Contents/Resources/bin/"
+# END docker
+
+# pnpm
+export PNPM_HOME="/Users/theorib/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# pnpm node
+PNPM_NODE_CURRENT="$HOME/Library/pnpm/nodejs_current"
+if [ -L "$PNPM_NODE_CURRENT" ]; then
+    export PATH="$PNPM_NODE_CURRENT/bin:$PATH"
+fi
+# pnpm node end
+
 # START PATH CONFIGURATION
 # Volta
-export VOLTA_HOME=$HOME/.volta
-export PATH="$VOLTA_HOME/bin:$PATH"
-export VOLTA_FEATURE_PNPM=1
+# export VOLTA_HOME=$HOME/.volta
+# export PATH="$VOLTA_HOME/bin:$PATH"
+# export VOLTA_FEATURE_PNPM=1
 # Local binaries
 export PATH="$HOME/.local/bin:$PATH"
 # PostgreSQL
@@ -66,13 +91,20 @@ export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 # ruby
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="$(gem environment gemdir)/bin:$PATH"
-# Java
-export JAVA_HOME=$(/usr/libexec/java_home)
-export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 # SQLite
 export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
-
+# Android Studio
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+# Java (for ios development)
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 # END PATH CONFIGURATION
+
+# START Argyl CMS
+export PATH=$PATH:/Applications/Argyll_V3.4.1/bin
+
 
 # START starship
 # https://starship.rs/
@@ -85,9 +117,13 @@ eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 # END UV completions
 
+# START poetry
+# eval $(poetry env activate)
+# EMD poetry
+
 #START poetry completions
-fpath+=~/dotfiles/.zsh/.zfunc
-autoload -Uz compinit && compinit
+# fpath+=~/dotfiles/.zsh/.zfunc
+# autoload -Uz compinit && compinit
 # END poetry completions
 
 # START zsh autosuggestions
@@ -117,6 +153,13 @@ alias pn='pnpm'
 alias pp='export PYTHONPATH=$(pwd) && echo "PYTHONPATH set to $(pwd)"'
 alias vv='source venv/bin/activate && echo "venv activated"'
 alias vvv='source .venv/bin/activate && echo ".venv activated"'
+
+alias ls="lsd -F"
+alias la="lsd -AF"
+alias ll="lsd -lAF"
+alias lg="lsd -F --group-dirs=first"
+alias lt="lsd -AF --tree"
+alias tree="lsd --tree"
 # END aliases
 
 # START key bindings
@@ -124,4 +167,14 @@ bindkey "^[[A" up-line-or-history
 bindkey "^[[B" down-line-or-history
 bindkey "^[[C" forward-char
 # bindkey "^E" history-beginning-search-forward-end
-# END Key bindings
+# END Key bindings# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/theorib/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
+
+
+
+
+# remove aliases by running `pmg setup remove` or deleting the line 
+[ -f /Users/theorib/.pmg.rc ] && source /Users/theorib/.pmg.rc  # PMG source aliases
