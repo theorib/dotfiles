@@ -131,15 +131,6 @@ eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
 # END UV completions
 
-# START poetry
-# eval $(poetry env activate)
-# EMD poetry
-
-#START poetry completions
-# fpath+=~/dotfiles/.zsh/.zfunc
-# autoload -Uz compinit && compinit
-# END poetry completions
-
 # START zsh autosuggestions
 # https://github.com/zsh-users/zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
