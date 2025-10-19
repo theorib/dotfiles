@@ -9,7 +9,10 @@ if [ ! -L "$HOME/.zshrc" ] || [ "$(readlink $HOME/.zshrc)" != "$HOME/dotfiles/.z
 fi
 
 # BREW CONFIG: Allows access to Brew command and Brew packages
-eval $(/opt/homebrew/bin/brew shellenv)
+if [[ ! -f "$HOME/.brew_shellenv.zsh" ]] || [[ ! -s "$HOME/.brew_shellenv.zsh" ]]; then
+  /opt/homebrew/bin/brew shellenv > "$HOME/.brew_shellenv.zsh"
+fi
+source "$HOME/.brew_shellenv.zsh"
 
 
 
