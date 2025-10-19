@@ -186,5 +186,11 @@ fpath=(/Users/theorib/.docker/completions $fpath)
 
 
 
-# remove aliases by running `pmg setup remove` or deleting the line 
-[ -f /Users/theorib/.pmg.rc ] && source /Users/theorib/.pmg.rc  # PMG source aliases
+# remove aliases by running `pmg setup remove` or deleting the line
+[[ -f /Users/theorib/.pmg.rc ]] && source /Users/theorib/.pmg.rc  # PMG source aliases
+
+# START zsh-syntax-highlighting
+# https://github.com/zsh-users/zsh-syntax-highlighting/tree/master?tab=readme-ov-file
+# Load last for best performance
+source $BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# END zsh-syntax-highlighting
