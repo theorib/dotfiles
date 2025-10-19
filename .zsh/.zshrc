@@ -9,10 +9,16 @@ if [ ! -L "$HOME/.zshrc" ] || [ "$(readlink $HOME/.zshrc)" != "$HOME/dotfiles/.z
 fi
 
 # BREW CONFIG: Allows access to Brew command and Brew packages
-if [[ ! -f "$HOME/.brew_shellenv.zsh" ]] || [[ ! -s "$HOME/.brew_shellenv.zsh" ]]; then
-  /opt/homebrew/bin/brew shellenv > "$HOME/.brew_shellenv.zsh"
+BREW_CACHE="$HOME/.brew_shellenv.zsh"
+BREW_BIN="/opt/homebrew/bin/brew"
+
+# Regenerate if: cache doesn't exist, brew binary is newer, or cache is older than 7 days
+if [[ ! -f "$BREW_CACHE" ]] || \
+   [[ "$BREW_BIN" -nt "$BREW_CACHE" ]] || \
+   [[ -n $(find "$BREW_CACHE" -mtime +7 2>/dev/null) ]]; then
+  $BREW_BIN shellenv > "$BREW_CACHE"
 fi
-source "$HOME/.brew_shellenv.zsh"
+source "$BREW_CACHE"
 
 # Cache brew --prefix for performance
 BREW_PREFIX="$(brew --prefix)"
@@ -132,12 +138,20 @@ eval "$(starship init zsh)"
 
 
 # START UV and UVX completions
-if [[ ! -f "$ZSH/.uv_completions.zsh" ]]; then
-  uv generate-shell-completion zsh > "$ZSH/.uv_completions.zsh"
-  uvx --generate-shell-completion zsh > "$ZSH/.uvx_completions.zsh"
+UV_CACHE="$ZSH/.uv_completions.zsh"
+UVX_CACHE="$ZSH/.uvx_completions.zsh"
+UV_BIN="$(which uv 2>/dev/null)"
+
+# Regenerate if: cache doesn't exist, uv binary is newer, or cache is older than 7 days
+if [[ ! -f "$UV_CACHE" ]] || \
+   [[ -n "$UV_BIN" && "$UV_BIN" -nt "$UV_CACHE" ]] || \
+   [[ -n $(find "$UV_CACHE" -mtime +7 2>/dev/null) ]]; then
+  uv generate-shell-completion zsh > "$UV_CACHE" 2>/dev/null
+  uvx --generate-shell-completion zsh > "$UVX_CACHE" 2>/dev/null
 fi
-source "$ZSH/.uv_completions.zsh"
-source "$ZSH/.uvx_completions.zsh"
+
+[[ -f "$UV_CACHE" ]] && source "$UV_CACHE"
+[[ -f "$UVX_CACHE" ]] && source "$UVX_CACHE"
 # END UV completions
 
 # START zsh autosuggestions
