@@ -14,6 +14,8 @@ if [[ ! -f "$HOME/.brew_shellenv.zsh" ]] || [[ ! -s "$HOME/.brew_shellenv.zsh" ]
 fi
 source "$HOME/.brew_shellenv.zsh"
 
+# Cache brew --prefix for performance
+BREW_PREFIX="$(brew --prefix)"
 
 
 
