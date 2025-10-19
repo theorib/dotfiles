@@ -142,7 +142,7 @@ source "$ZSH/.uvx_completions.zsh"
 
 # START zsh autosuggestions
 # https://github.com/zsh-users/zsh-autosuggestions
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $BREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Styling the syntax highlight
 # https://scottspence.com/posts/my-updated-zsh-config-2025
@@ -152,11 +152,6 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
 ZSH_AUTOSUGGEST_USE_ASYNC=1
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 # END zsh autosuggestions
-
-# START zsh-syntax-highlighting
-# https://github.com/zsh-users/zsh-syntax-highlighting/tree/master?tab=readme-ov-file
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# END zsh-syntax-highlighting
 
 # START zsh speed profiling
 # zprof
