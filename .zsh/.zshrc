@@ -127,8 +127,12 @@ eval "$(starship init zsh)"
 
 
 # START UV and UVX completions
-eval "$(uv generate-shell-completion zsh)"
-eval "$(uvx --generate-shell-completion zsh)"
+if [[ ! -f "$ZSH/.uv_completions.zsh" ]]; then
+  uv generate-shell-completion zsh > "$ZSH/.uv_completions.zsh"
+  uvx --generate-shell-completion zsh > "$ZSH/.uvx_completions.zsh"
+fi
+source "$ZSH/.uv_completions.zsh"
+source "$ZSH/.uvx_completions.zsh"
 # END UV completions
 
 # START zsh autosuggestions
