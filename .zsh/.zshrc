@@ -29,7 +29,7 @@ source ~/dotfiles/.zsh/plugins/zsh-shift-select/zsh-shift-select.plugin.zsh
 # https://github.com/zsh-users/zsh-completions
 # https://formulae.brew.sh/formula/zsh-completions#default
 if type brew &>/dev/null; then
-     FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+     FPATH=$BREW_PREFIX/share/zsh-completions:$FPATH
 fi
 # END zsh-completions
 
