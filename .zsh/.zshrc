@@ -25,11 +25,16 @@ source ~/dotfiles/.zsh/plugins/zsh-shift-select/zsh-shift-select.plugin.zsh
 # https://formulae.brew.sh/formula/zsh-completions#default
 if type brew &>/dev/null; then
      FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
-     autoload -Uz compinit
-     compinit
-    fi
+fi
 # END zsh-completions
+
+autoload -Uz compinit
+if [ $(date +'%j') != $(/usr/bin/stat -f '%Sm' -t '%j' ~/.zcompdump 2>/dev/null) ]; then
+  compinit
+else
+  compinit -C
+fi
+
 
 # START mouse support
 # https://github.com/matschaffer/oh-my-zsh-custom/blob/master/mouse.zsh
@@ -61,11 +66,6 @@ export NVM_LAZY=1
 export PIP_REQUIRE_VIRTUALENV=true
 # END PIP CONFIGURATION
 
-# START PYENV CONFIGURATION
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-# END PYENV CONFIGURATION
 
 # START docker
 export PATH="$PATH:/Applications/Development Utils/Docker.app/Contents/Resources/bin/"
@@ -154,6 +154,7 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # END zsh speed profiling
 
 # START aliases
+
 alias pn='pnpm'
 alias pp='export PYTHONPATH=$(pwd) && echo "PYTHONPATH set to $(pwd)"'
 alias vv='source venv/bin/activate && echo "venv activated"'
@@ -176,8 +177,6 @@ bindkey "^[[C" forward-char
 # bindkey "^E" history-beginning-search-forward-end
 # END Key bindings# The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/theorib/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
 # End of Docker CLI completions
 
 
