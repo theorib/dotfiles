@@ -70,8 +70,6 @@ setopt HIST_IGNORE_ALL_DUPS
 # History won't show duplicates on search.
 setopt HIST_FIND_NO_DUPS
 
-export NVM_LAZY=1
-
 # START PIP CONFIGURATION
 # https://switowski.com/blog/disable-pip-outside-of-virtual-environments/#make-sure-that-pip-only-runs-in-a-virtual-environment
 export PIP_REQUIRE_VIRTUALENV=true
@@ -90,12 +88,9 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-# pnpm node
-PNPM_NODE_CURRENT="$HOME/Library/pnpm/nodejs_current"
-if [ -L "$PNPM_NODE_CURRENT" ]; then
-    export PATH="$PNPM_NODE_CURRENT/bin:$PATH"
-fi
-# pnpm node end
+# START fnm (Fast Node Manager)
+eval "$(fnm env --use-on-cd --shell zsh)"
+# END fnm
 
 # START AWS CLI
 export AWS_PROFILE=AWS
@@ -103,10 +98,6 @@ export AWS_DEFAULT_REGION=eu-west-2
 # END AWS CLI
 
 # START PATH CONFIGURATION
-# Volta
-# export VOLTA_HOME=$HOME/.volta
-# export PATH="$VOLTA_HOME/bin:$PATH"
-# export VOLTA_FEATURE_PNPM=1
 # Local binaries
 export PATH="$HOME/.local/bin:$PATH"
 # PostgreSQL
