@@ -42,8 +42,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -95,8 +97,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -154,8 +158,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -203,8 +209,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -252,8 +260,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -297,8 +307,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -343,8 +355,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -395,8 +409,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -589,8 +605,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -663,8 +681,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -805,8 +825,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -919,8 +941,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -1042,8 +1066,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -1227,8 +1253,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -1330,8 +1358,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -1467,8 +1497,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -1628,8 +1660,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -1678,8 +1712,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -1785,6 +1821,8 @@ wasm32-pyodide2024\:"A wasm32 target using the Pyodide 2024 platform. Meant for 
 arm64-apple-ios\:"An ARM64 target for iOS device"
 arm64-apple-ios-simulator\:"An ARM64 target for iOS simulator"
 x86_64-apple-ios-simulator\:"An \`x86_64\` target for iOS simulator"))' \
+'--service-format=[The service format to use for vulnerability lookups]:SERVICE_FORMAT:(osv)' \
+'--service-url=[The URL to vulnerability service API endpoint]:SERVICE_URL:_urls' \
 '--cache-dir=[Path to the cache directory]:CACHE_DIR:_files -/' \
 '--python-preference=[]:PYTHON_PREFERENCE:((only-managed\:"Only use managed Python installations; never use system Python installations"
 managed\:"Prefer managed Python installations over system Python installations"
@@ -1833,8 +1871,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -1877,8 +1917,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2097,8 +2139,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2311,8 +2355,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2523,8 +2569,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2669,8 +2717,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2721,8 +2771,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2766,8 +2818,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2811,8 +2865,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2856,8 +2912,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2904,8 +2962,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -2965,8 +3025,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3028,8 +3090,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3082,8 +3146,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3134,8 +3200,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3184,8 +3252,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3230,8 +3300,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3277,8 +3349,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3322,8 +3396,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3370,8 +3446,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3627,8 +3705,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -3838,8 +3918,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4067,8 +4149,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4127,8 +4211,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4185,8 +4271,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4262,8 +4350,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4318,8 +4408,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4393,8 +4485,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4487,8 +4581,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4535,8 +4631,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4623,8 +4721,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4741,8 +4841,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4804,8 +4906,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4849,8 +4953,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4901,8 +5007,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4946,8 +5054,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -4991,8 +5101,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5039,8 +5151,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5091,8 +5205,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5137,8 +5253,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5183,8 +5301,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5228,8 +5348,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5272,8 +5394,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5316,8 +5440,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5361,8 +5487,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5405,8 +5533,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5454,8 +5584,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5507,8 +5639,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5554,8 +5688,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5598,8 +5734,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5644,8 +5782,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5692,8 +5832,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5746,8 +5888,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5794,8 +5938,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5843,8 +5989,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
@@ -5897,6 +6045,8 @@ never\:"Do not ever allow Python downloads"))' \
 '--allow-python-downloads[Allow automatically downloading Python when required. \[env\: "UV_PYTHON_DOWNLOADS=auto"\]]' \
 '(--color)--no-color[Disable colors]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
 '--no-preview[]' \
@@ -5936,8 +6086,10 @@ never\:"Disables colored output"))' \
 '(-q --quiet)*-v[Use verbose output]' \
 '(-q --quiet)*--verbose[Use verbose output]' \
 '(--color)--no-color[Disable colors]' \
-'--native-tls[Whether to load TLS certificates from the platform'\''s native store \[env\: UV_NATIVE_TLS=\]]' \
+'--native-tls[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_NATIVE_TLS=\]]' \
 '--no-native-tls[]' \
+'--system-certs[Whether to load TLS certificates from the platform'\''s native certificate store \[env\: UV_SYSTEM_CERTS=\]]' \
+'--no-system-certs[]' \
 '--offline[Disable network access \[env\: UV_OFFLINE=\]]' \
 '--no-offline[]' \
 '--preview[Whether to enable all experimental preview features \[env\: UV_PREVIEW=\]]' \
